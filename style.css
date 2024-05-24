@@ -1,0 +1,266 @@
+* {
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+body{
+    background-color: #D9D9D9;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #2995D9;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2995D9;
+}
+
+main{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+nav{
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    width: 600px;
+    height: 600px;
+    margin-left: -300px;
+    background-image: linear-gradient(to bottom, #2995D9, #CDD9BA);
+    float: left;
+}
+
+.nav-border{
+    border-radius: 50%;
+    width: 94%;
+    height: 94%;
+    position:relative;
+    left: 3%;
+    top:3%;
+    background-color: #D9D9D9;
+}
+
+.nav-foto{
+    background-image: url(imagens/foto_jim_pgsec.png);
+}
+
+.nib{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-icon-border-pess{
+    position: absolute;
+    left: 377.5px;
+    top: -pess6.7px;
+}
+
+.nav-icon-border-acad{
+    position: absolute;
+    left: 501.5px;
+    top: 131px;
+}
+
+.nav-icon-border-expe{
+    position: absolute;
+    left: 501.5px;
+    top: 323.9px;
+}
+
+.nav-icon-border-conh{
+    position: absolute;
+    left: 377.5px;
+    top: 471.7px;
+}
+
+.ni{
+    border-radius: 50%;
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background-color: #D9D9D9;
+}
+
+.nav-icon-pess{
+    background-image: url(imagens/pessoal.png)
+}
+
+.nav-icon-acad{
+    background-image: url(imagens/academico.png);
+}
+
+.nav-icon-expe{
+    background-image: url(imagens/experiencia.png);
+}
+
+.nav-icon-conh{
+    background-image: url(imagens/conhecimento.png);
+}
+
+.nb{
+    width: 200%;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    padding-left: 70px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+@media (max-width: 1359px) {
+    .nb{
+        display: none;
+    }
+}
+
+.nav-icon-link{
+    border-radius: 50%;
+    display: block;
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+section{
+    height: 600px;
+    width: 55%;
+    background-color: #d9d9d9;
+    padding-right: 5%;
+    float: right;
+}
+
+.section-index-nome{
+    float:right;
+    font-size: 30px;
+    position: relative;
+    clear: both;
+    margin-right: 10%;
+}
+
+.section-index-foto{
+    background-image: url(imagens/foto_jim.png);
+    height: 380px;
+    width: 400px;
+    float: right;
+    clear: both;
+    margin-right: 10%;
+}
+
+.section-acad{
+    background-image: linear-gradient(to right, #2995D9, #CDD9BA, #d9d9d9);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.section-exp{
+    background-image: linear-gradient(to right, #2995D9, #CDD9BA, #d9d9d9);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.section-conh{
+    background-image: linear-gradient(to right, #2995D9, #CDD9BA, #d9d9d9);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.tb-pers-button{
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tb-pers-text{
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tb-acad-text{
+    height: 40px;
+    float: left;
+    padding-left: 10px;
+}
+
+.tb-acad-logo{
+    width: 80px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tb-exp-text{
+    height: 40px;
+    padding-left: 10px;
+    float: left;
+}
+
+.tb-exp-logo{
+    height: 0px;
+    width: 140px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tb-conh-text{
+    height: 40px;
+    width: 100px;
+    padding-left: 20px;
+    float: left;
+}
+
+.tb-conh-logo{
+    width: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tb-conh-icon{
+    width: 100px;
+    padding-left: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.td-sep{
+    width: 2px;
+}
+
+.tb-conh-progr{
+    width: 10px;
+    position: relative;
+    border-color: rgba(0, 0, 0, 0.699);
+    border-style: solid;
+    border-width: 0.2px;
+}
+
+.progr-full{
+    background-color: #2995D9;
+}
+
+.progr-empty{
+    background-color: #d9d9d9;
+}
+
+.tb-sep{
+    height: 20px;
+}
